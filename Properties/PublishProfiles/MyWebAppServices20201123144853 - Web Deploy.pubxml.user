@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK/B4oaxYS0C18mn41IwF8wAAAAACAAAAAAAQZgAAAAEAACAAAABCYg5tTYqlU/7VLIM0R/RselX3JxyXt4ayaY19dtVfSwAAAAAOgAAAAAIAACAAAACG2JIirKhypioxb2I/DVDoSRbeoXJpal0Ak3ebP1U5VYAAAACScg3iSsYtHSy8rxutjzj9HkGa8sRUll0c6wMZuMOeR8SNtBkz8GmQxVyO9RlzJQpl9NDo0mhGp3jn+aaheRrkVc8LOIh5yf/V6rHrPyjf8ojQuvgCtAas0XRhM6NnYDZh+/0PD/3VJGugnlIBZOa5KZvKH/cnT4vhlr3LsSfJHEAAAADF1aZa07VPF2Io7WFMG9GaPtVrJLOwnWtGHBGQYg3nIPh3z5HLbbIEr1Lxg/zyU2vdlDS/Dj3h3tyPpgGmWb5L</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:webappservicesdbserver9824.database.windows.net,1433%3bInitial Catalog=WebAppServices_db%3bUser Id=AdminRuan%40webappservicesdbserver9824%3bPassword=RuanBez1998</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebAppServices.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:webappservicesdbserver9824.database.windows.net,1433%3bInitial Catalog=WebAppServices_db%3bUser Id=AdminRuan%40webappservicesdbserver9824%3bPassword=RuanBez1998</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
